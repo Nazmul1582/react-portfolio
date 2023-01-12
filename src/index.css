@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .orangeGradient {
+    @apply bg-gradient-to-r from-orange-500 to-amber-400;
+  }
+  .gradientText {
+    @apply font-extrabold text-transparent bg-clip-text bg-gradient-to-r orangeGradient;
+  }
+  .button {
+    @apply border-0  px-8 rounded-lg mx-auto py-3 dark:bg-slate-100 dark:text-slate-900 font-semibold bg-gradient-to-r orangeGradient outline-0 shadow-2xl shadow-amber-500 hover:scale-105 duration-300;
+  }
+  .heading {
+    @apply dark:text-white text-center text-4xl font-bold mb-10 underline decoration-amber-400 decoration-4 underline-offset-4;
+  }
+  .about-img-bg {
+    background: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.7),
+      #f97316,
+      rgba(0, 0, 0, 0.7)
+    );
+  }
+  .single-service {
+    @apply text-center border border-slate-400 rounded-xl p-4 max-w-[380px] shadow-2xl hover:shadow-amber-400 hover:bg-amber-400 duration-300 text-slate-400 hover:text-slate-900 hover:border-amber-400;
+  }
+  .overlay {
+    @apply absolute top-0 left-0 orangeGradient flex justify-center items-center w-full h-full gap-3 rounded-xl opacity-0 hover:opacity-100 duration-500;
+  }
+  .overlay-icon {
+    @apply text-2xl text-white bg-orange-500 w-10 h-10 rounded-full flex justify-center items-center;
+  }
+  .footer-icon {
+    @apply dark:text-white cursor-pointer text-2xl hover:scale-125 duration-300;
+  }
+}
