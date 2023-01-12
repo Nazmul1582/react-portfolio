@@ -13,14 +13,14 @@ export default function Intro() {
           <span className="gradientText">
             {" "}
             <Typewriter
-              words={["Frontend Developer!"]}
+              words={["Frontend Developer", "Web Designer", "React Developer!"]}
               loop={false}
               cursor
               cursorStyle="|"
               cursorColor="#f59e0b"
               typeSpeed={100}
               deleteSpeed={100}
-              delaySpeed={10000}
+              delaySpeed={1000}
             />
           </span>
         </h2>
@@ -35,7 +35,7 @@ export default function Intro() {
       <div className="sm:flex-1 grid place-items-center">
         <div className="flex justify-center items-end bg-gradient-to-b from-orange-400 to-slate-900 w-60 h-60 rounded-t-full">
           <img
-            className="max-w-full w-56 h-56 object-cover rounded-t-3xl"
+            className="max-w-full w-52 h-56 object-cover rounded-t-3xl"
             src={img}
             alt="pic"
           />
