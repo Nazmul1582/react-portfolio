@@ -1,5 +1,5 @@
 import React from "react";
-import { layout, styles } from "../style";
+import { layout } from "../style";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 
 import "react-circular-progressbar/dist/styles.css";
@@ -9,10 +9,7 @@ export default function Skills() {
   return (
     <section className={`${layout.section}`}>
       <h2 className="heading">Skills</h2>
-      <div
-        className={`${styles.flexCenter} 
-         flex-wrap gap-10 dark:text-slate-100`}
-      >
+      <div className="grid grid-cols-2 md:grid-cols-3 items-center justify-items-center gap-10 dark:text-slate-100">
         {skills.map((skill) => (
           <div key={skill.id} className="max-w-[150px]">
             <CircularProgressbar
