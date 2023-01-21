@@ -11,7 +11,7 @@ export const styles = {
 
 export const layout = {
   section: `${styles.boxWidth} ${styles.padding}`,
-  sectionReverse: `${styles.flexCenter} flex-col-reverse sm:flex-row gap-10 sm:gap-2 ${styles.boxWidth} ${styles.padding}`,
+  sectionReverse: `${styles.flexCenter} flex-col-reverse md:flex-row gap-10 md:gap-2 ${styles.boxWidth} ${styles.padding}`,
 
   sectionFlex: `${styles.flexCenter} flex-col md:flex-row gap-10`,
 };

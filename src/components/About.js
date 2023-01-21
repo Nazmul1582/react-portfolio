@@ -1,5 +1,6 @@
 import image from "../assets/images/nazmul-hasan.jpg";
 import { layout } from "../style";
+import resume from "../assets/resume.pdf";
 
 const About = () => {
   return (
@@ -51,7 +52,9 @@ const About = () => {
                 </li>
               </div>
             </div>
-            <button className="button">Download CV</button>
+            <a className="button" href={resume} download="resume">
+              Download CV
+            </a>
           </div>
         </div>
       </div>

@@ -7,10 +7,12 @@ export default function Intro() {
   return (
     <div id="home" className={`${layout.sectionReverse} my-10 sm:my-20`}>
       <div className="sm:flex-1  dark:text-white">
-        <h3 className="text-xl font-bold ">Hi! I'm Nazmul Hasan</h3>
-        <h2 className="text-3xl sm:text-5xl font-bold mt-3">
+        <h3 className="text-xl font-semibold text-slate-500">
+          Hi! I'm Nazmul Hasan
+        </h3>
+        <h2 className="text-xl font-bold mt-3">
           I'm a
-          <span className="gradientText">
+          <span className="gradientText text-2xl sm:text-4xl md:text-2xl lg:text-4xl">
             {" "}
             <Typewriter
               words={["Frontend Developer", "Web Designer", "React Developer!"]}
@@ -30,7 +32,9 @@ export default function Intro() {
           experience in developing static websites using HTML5, CSS3, and
           JavaScript.
         </p>
-        <button className="button">Hire Me</button>
+        <a href="#contact" className="button">
+          Hire Me
+        </a>
       </div>
       <div className="sm:flex-1 grid place-items-center">
         <div className="flex justify-center items-end bg-gradient-to-b from-orange-400 to-slate-900 w-60 h-60 rounded-t-full">

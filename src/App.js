@@ -11,7 +11,7 @@ import {
 
 function App() {
   return (
-    <div className="dark:bg-gray-900 bg-slate-100 w-full overflow-hidden">
+    <div className="dark:bg-gray-900 bg-slate-100 w-full h-full overflow-hidden">
       <Navbar />
       <Intro />
       <About />

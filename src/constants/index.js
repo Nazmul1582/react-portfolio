@@ -1,6 +1,7 @@
 import w1 from "../assets/images/my-chat-app.png";
-import w2 from "../assets/images/my-food-website.png";
-import w3 from "../assets/images/my-portfolio.png";
+import w2 from "../assets/images/twitter-clone.png";
+import w3 from "../assets/images/my-food-website.png";
+import w4 from "../assets/images/my-portfolio.png";
 
 export const navLinks = [
   {
@@ -35,12 +36,18 @@ export const works = [
   {
     img: w2,
     alt: "w2",
-    link1: "https://github.com/Nazmul1582/food-website-with-react",
-    link2: "https://food-website-nazmul.netlify.app",
+    link1: "https://github.com/Nazmul1582/twitter-clone",
+    link2: "https://twitter-clone-nazmul.vercel.app",
   },
   {
     img: w3,
     alt: "w3",
+    link1: "https://github.com/Nazmul1582/food-website-with-react",
+    link2: "https://food-website-nazmul.netlify.app",
+  },
+  {
+    img: w4,
+    alt: "w4",
     link1: "https://github.com/Nazmul1582/react-portfolio",
     link2: "https://portfolio-nazmul1582.netlify.app/",
   },
