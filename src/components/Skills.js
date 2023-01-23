@@ -4,7 +4,7 @@ import { skills } from "../constants";
 
 export default function Skills() {
   return (
-    <section id="skills" className={`${layout.section}`}>
+    <section id="skills" className={`${layout.section} scroll-m-20`}>
       <h2 className="heading">Skills</h2>
       <div className="grid grid-cols-2 md:grid-cols-3 items-center justify-items-center gap-10 dark:text-slate-100">
         {skills.map((skill) => (

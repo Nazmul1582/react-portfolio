@@ -5,7 +5,7 @@ import { works } from "../constants";
 
 const Works = () => {
   return (
-    <section id="works" className={`${layout.section}`}>
+    <section id="works" className={`${layout.section} scroll-m-20`}>
       <h2 className="heading underline-offset-[10px]">My Works</h2>
       <div className="grid place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {works.map((website) => (

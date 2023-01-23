@@ -4,7 +4,7 @@ import { layout } from "../style";
 
 export default function Contact() {
   return (
-    <section id="contact" className={`${layout.section} scroll-mt-5`}>
+    <section id="contact" className={`${layout.section} scroll-m-20`}>
       <h2 className="dark:text-white text-center text-4xl font-bold mb-10 underline decoration-amber-400 decoration-4 underline-offset-4">
         Get In Touch
       </h2>

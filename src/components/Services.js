@@ -4,7 +4,10 @@ import { layout } from "../style";
 
 export default function Services() {
   return (
-    <section id="services" className={`${layout.section} dark:text-slate-100`}>
+    <section
+      id="services"
+      className={`${layout.section} dark:text-slate-100 scroll-m-20`}
+    >
       <h2 className="heading">Services</h2>
 
       <div className="grid place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">

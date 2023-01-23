@@ -4,7 +4,7 @@ import resume from "../assets/resume.pdf";
 
 const About = () => {
   return (
-    <section id="about" className={`${layout.section}`}>
+    <section id="about" className={`${layout.section} scroll-m-20`}>
       <h2 className="heading">About Me</h2>
       <div className={`${layout.sectionFlex}`}>
         <div className="flex-1">
