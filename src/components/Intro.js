@@ -5,7 +5,10 @@ import { layout } from "../style";
 
 export default function Intro() {
   return (
-    <div id="home" className={`${layout.sectionReverse} my-10 sm:my-20`}>
+    <div
+      id="home"
+      className={`${layout.sectionReverse} h-screen my-10 sm:my-20`}
+    >
       <div className="sm:flex-1  dark:text-white">
         <h3 className="text-xl font-semibold text-slate-500">
           Hi! I'm Nazmul Hasan

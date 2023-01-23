@@ -3,6 +3,17 @@ import w2 from "../assets/images/twitter-clone.png";
 import w3 from "../assets/images/my-food-website.png";
 import w4 from "../assets/images/my-portfolio.png";
 
+// images for skills
+import s1 from "../assets/images/html.png";
+import s2 from "../assets/images/css.png";
+import s3 from "../assets/images/js.png";
+import s4 from "../assets/images/react.png";
+import s5 from "../assets/images/tailwindcss.png";
+import s6 from "../assets/images/redux.png";
+import s7 from "../assets/images/sass.png";
+import s8 from "../assets/images/git.png";
+import s9 from "../assets/images/typescript.png";
+
 export const navLinks = [
   {
     id: "home",
@@ -15,6 +26,10 @@ export const navLinks = [
   {
     id: "services",
     title: "Services",
+  },
+  {
+    id: "skills",
+    title: "Skills",
   },
   {
     id: "works",
@@ -72,34 +87,13 @@ export const services = [
 ];
 
 export const skills = [
-  {
-    id: 1,
-    name: "HTML",
-    parcentage: "95%",
-  },
-  {
-    id: 2,
-    name: "CSS",
-    parcentage: "90%",
-  },
-  {
-    id: 3,
-    name: "JavaScript",
-    parcentage: "80%",
-  },
-  {
-    id: 4,
-    name: "React",
-    parcentage: "95%",
-  },
-  {
-    id: 5,
-    name: "Tailwindcss",
-    parcentage: "90%",
-  },
-  {
-    id: 6,
-    name: "Redux",
-    parcentage: "95%",
-  },
+  { id: 1, img: s1, name: "html" },
+  { id: 2, img: s2, name: "css" },
+  { id: 3, img: s3, name: "js" },
+  { id: 4, img: s4, name: "react" },
+  { id: 5, img: s5, name: "tailwindcss" },
+  { id: 6, img: s6, name: "redux" },
+  { id: 7, img: s7, name: "sass" },
+  { id: 8, img: s8, name: "git" },
+  { id: 9, img: s9, name: "typescript" },
 ];

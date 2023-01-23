@@ -21,7 +21,7 @@ export default function Navbar() {
   });
   return (
     <header
-      className={`w-full dark:bg-slate-800 dark:text-slate-100 bg-slate-200 sticky top-0`}
+      className={`w-full dark:bg-slate-800/75 dark:text-slate-100 bg-slate-200/75 fixed top-0 z-10 backdrop-blur-xl`}
     >
       <nav className={`${styles.boxWidth} ${styles.paddingX} py-5`}>
         <div className={`${styles.flexBetween}`}>
